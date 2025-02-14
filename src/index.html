@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أداة تحليل المشاعر للنصوص</title>
+</head>
+<body>
+  <div class="container">
+    <h1>أداة تحليل المشاعر للنصوص</h1>
+    <form id="urlForm">
+      <label for="urlInput">أدخل رابط المقالة:</label>
+      <input type="url" id="urlInput" required />
+      <button type="submit">تحليل</button>
+    </form>
+    <div id="result">
+      <p>المشاعر: <span id="sentiment"></span></p>
+      <p>نوع المحتوى: <span id="contentType"></span></p>
+      <p>نظرة عامة للنص: <span id="textPreview"></span></p>
+    </div>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+</html>

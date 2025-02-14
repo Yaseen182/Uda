@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.98.0"
+  }
+}
